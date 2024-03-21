@@ -3,52 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/styles/index.css">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="/Pages/img/logo.png" alt="logo-saude">
-        <form action="/search" method="get">
+        <img class="logo" src="/img/logo.png" alt="logo-saude">
+        <h1>Inclua Saúde</h1>
+        <form class="pesquisa" action="/search" method="get">
             <input type="text" placeholder="Pesquisar..." name="search">
             <button type="submit">Buscar</button>
         </form>
-        <h1>Vida Saudável</h1>
     </header>
     <nav>
-        <p><a href="/Pages/Home/home.html">Home</a></p>
-        <p><a href="/Pages/Dicas/dicas.html">Dicas</a></p>
-        <p><a href="/Pages/Oportunidades/oportunidades.html">Oportunidades</a></p>
-        <p><a href="/Pages/Sobre/sobre.html">Sobre nós</a></p>
-        <p><a href="/Pages/Forum/forum.html">Fórum</a></p>
+        <a href="index.html">Home</a>
+        <a href="dicas.html">Dicas</a>
+        <a href="oportunidades.html">Oportunidades</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="forum.html">Fórum</a>
     </nav>
             
     <main>
         <section>
-            <p>
-                <img src="/Pages/img/idoso.jpeg">
+            <div class="dicas">
+                <img src="/img/idoso.jpeg">
                 <a href="https://jornal.usp.br/universidade/maneiras-de-viver-bem-na-terceira-idade-em-tempos-de-pandemia/">
                     Maneiras de viver bem na terceira idade em tempos de pandemia
                 </a>
-            </p>
-            <p>
-                <img src="/Pages/img/exercitar.jpeg">
+            </div>
+            <div class="dicas">
+                <img src="/img/exercitar.jpeg">
                 <a href="https://jornal.usp.br/podcast/viva-melhor-01-como-comecar-a-me-exercitar/">
                     Como começar a me exercitar?
                 </a>
-            </p>
-            <p>
-                <img src="/Pages/img/sedentarismo.jpeg">
+            </div>
+            <div class="dicas">
+                <img src="/img/sedentarismo.jpeg">
                 <a href="https://jornal.usp.br/atualidades/mudanca-de-habito-que-vale-a-pena/">
                     Atividade física é o melhor remédio contra doenças do sedentarismo
                 </a>
-            </p>
-            <p>
-                <img src="/Pages/img/laboral.jpeg">
+            </div>
+            <div class="dicas">
+                <img src="/img/laboral.jpeg">
                 <a href="https://jornal.usp.br/atualidades/empresas-ganham-ao-investir-em-programas-de-valorizacao-da-saude/">
                     Empresas ganham ao investir em programas de valorização da saúde
                 </a>
-            </p>
+            </div>
         </section>
     </main>
 

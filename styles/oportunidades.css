@@ -1,0 +1,100 @@
+header {
+    background-color: #4682B4;
+    display: flex;
+/* essa parte eu não fiz, peguei do curso, tenhho que aprender */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    font-size: 20px;
+    padding: 20px;
+    color: #C0D9D9;
+
+    background-color: #4682B4;
+    padding: 22px;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    background-color: #4682B4;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+}
+
+body {
+    margin: 0px;
+    background-color: #C0D9D9;
+}
+
+input, button, ::placeholder {
+    border-radius: 50px;
+    background-color: #4682B4;
+    color: #fff;
+}
+
+section {
+    margin-left: 150px;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+}
+
+.dicas {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+}
+
+.dicas {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #4682B4;
+    font-size: 30px;
+    color: #0b314f;
+}
+
+.dicas img {
+    max-width: 100%;
+}
+
+.dicas p {
+    margin-top: 10px;
+}

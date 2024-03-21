@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/styles/novo-forum.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Fórum</title>
+    <title>Novo Fórum</title>
 </head>
 <body>
     <header>
-        <a href="/incluaSaude/Pages/Home/home.html">   
-            <img src="/Pages/img/logo.png" alt="logo inclua saúde" class="logo"/>
+        <a href="/index.html">   
+            <img src="/img/logo.png" alt="logo inclua saúde" class="logo"/>
         </a> 
+        <h1>Cirar novo tópico</h1>
         <form action="/search" method="get">
             <input type="text" placeholder="Pesquisar..." name="search">
             <button type="submit">Buscar</button>
@@ -19,14 +21,12 @@
     <main>
         <div class="title-bar">
         </div>
-        <nav class="side-bar"?>
-            <ul>
-                <li><a href="/Pages/Home/home.html">Home</a></li>
-                <li><a href="/Pages/Dicas/dicas.html">Dicas Saudáveis</a></li>
-                <li><a href="/Pages/Oportunidades/oportunidades.html">Oportunidades</a></li>
-                <li><a href="/Pages/Forum/forum.html">Fórum</a></li>
-                <li><a href="/Pages/Sobre/sobre.html">Sobre nós</a></li>
-            </ul>    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dicas.html">Dicas</a>
+            <a href="oportunidades.html">Oportunidades</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="forum.html">Fórum</a>
         </nav>
     <h3><form action="#" method="post">
         <label for="mensagem">Título</label><br>
@@ -34,11 +34,11 @@
     </form></h3>
 
     <form action="#" method="post">
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+        <label for="mensagem">Mensagem</label><br>
+        <textarea id="mensagem" name="mensagem" rows="6" cols="75"></textarea><br>
         <input type="submit" value="Postar">
     </form>
-
+    </main>
     <footer>
         <h3>Objetivo de Desenvolvimento Sustentável</h3>
         <p>Garantir o acesso à saúde de qualidade e promover o bem-estar para todos, em todas as idades</p>
