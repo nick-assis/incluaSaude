@@ -1,12 +1,8 @@
 header {
     background-color: #4682B4;
     display: flex;
-/* essa parte eu não fiz, peguei do curso, tenhho que aprender */
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .logo {
@@ -27,12 +23,9 @@ nav {
     gap: 10px;
     position: fixed;
     font-size: 20px;
-    padding: 20px;
-    color: #C0D9D9;
-
-    background-color: #4682B4;
     padding: 22px;
-    transition: background-color 0.3s ease;
+    color: #C0D9D9;
+    background-color: #4682B4;
 }
 
 footer {
@@ -47,11 +40,6 @@ body {
     background-color: #C0D9D9;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 a {
     color: #C0D9D9;
     text-decoration: none;
@@ -61,30 +49,8 @@ a:hover {
     color: #0056b3;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #C0D9D9;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 .button:hover {
     background-color: #0056b3;
-}
-
-.input-text {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.textarea {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
 }
 
 section {
@@ -92,7 +58,7 @@ section {
 }
 
 input, button, ::placeholder {
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: #4682B4;
     color: #fff;
 }

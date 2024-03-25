@@ -1,12 +1,8 @@
 header {
     background-color: #4682B4;
     display: flex;
-/* essa parte eu não fiz, peguei do curso, tenhho que aprender */
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .logo {
@@ -15,8 +11,7 @@ header {
 }
 
 h1 {
-    color: #C0D9D9;
-    text-align: center;
+    color: #fff;
     font-weight: 300;
     font-size: 50px;
 }
@@ -35,7 +30,7 @@ nav {
 footer {
     background-color: #4682B4;
     text-align: center;
-    color: #C0D9D9;
+    color: #fff;
     height: 100px;
 }
 
@@ -45,13 +40,14 @@ body {
 }
 
 input, button, ::placeholder {
-    border-radius: 15px;
-    background-color: #C0D9D9;
-    color: #0b314f;
+    border-radius: 20px;
+    background-color: #4682B4;
+    color: #fff;
 }
 
 section {
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    margin: 0px 150px;
 }
 
 img {
@@ -63,12 +59,6 @@ img {
 .dicas {
     display: flex;
     align-items: center;
-    flex: 1;
-    margin: 10px;
-    padding: 10px;
-    border: 3px solid #4682B4;
-    font-size: 30px;
-    color: #0b314f;
 }
 
 a {
@@ -85,8 +75,12 @@ a:active {
     color: inherit;
 }
 
-.dicas img {
-    max-width: 100%;
+.dicas {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #4682B4;
+    font-size: 30px;
+    color: #0b314f;
 }
 
 .dicas p {
