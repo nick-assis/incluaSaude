@@ -20,9 +20,11 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 17%x;   
     position: fixed;
     font-size: 20px;
-    padding: 22px;
+    margin-top: 7px;
+    padding: 20px 20px 22px 22px;    
     color: #C0D9D9;
     background-color: #4682B4;
 }
@@ -46,7 +48,7 @@ input, button, ::placeholder {
 }
 
 section {
-    /* margin-left: 150px; */
+    padding-left: 10px;
     margin: 0px 150px;
 }
 
@@ -76,6 +78,7 @@ a:active {
     font-size: 30px;
     color: #0b314f;
     margin-top: 10px;
+    margin-left: 30px;
     display: flex;
     align-items: center;
     text-align: left;

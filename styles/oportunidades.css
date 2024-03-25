@@ -22,7 +22,8 @@ nav {
     gap: 10px;
     position: fixed;
     font-size: 20px;
-    padding: 22px;
+    margin-top: 7px;
+    padding: 20px 20px 22px 22px;    
     color: #C0D9D9;
     background-color: #4682B4;
 }
