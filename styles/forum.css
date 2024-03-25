@@ -23,7 +23,6 @@ nav {
     gap: 10px;
     position: fixed;
     font-size: 20px;
-    margin-top: 7px;
     padding: 20px 20px 22px 22px;    
     color: #C0D9D9;
     background-color: #4682B4;
@@ -62,4 +61,14 @@ input, button, ::placeholder {
     border-radius: 20px;
     background-color: #4682B4;
     color: #fff;
+}
+
+.forum-ex1,
+.forum-ex2,
+.forum-ex3 {
+    border: 2px solid #4682B4;
+    padding: 10px 10px;;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 75%;
 }
