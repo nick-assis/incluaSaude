@@ -22,7 +22,7 @@ nav {
     gap: 10px;
     position: fixed;
     font-size: 20px;
-    margin-top: 7px;
+    margin-top: 10px;
     padding: 20px 20px 22px 22px;    
     color: #C0D9D9;
     background-color: #4682B4;
@@ -42,8 +42,8 @@ body {
 
 input, button, ::placeholder {
     border-radius: 20px;
-    background-color: #4682B4;
-    color: #fff;
+    background-color: #fff;
+    color: #0b314f;
 }
 
 section {

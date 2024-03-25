@@ -18,6 +18,7 @@ h1 {
 }
 
 nav {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -54,11 +55,11 @@ a:hover {
 }
 
 section {
-        margin-left:  200px;
+    margin-left:  200px;
 }
 
-input, button, ::placeholder {
-    border-radius: 20px;
+input, button {
+    border-radius: 5px;
     background-color: #4682B4;
     color: #fff;
 }
@@ -71,4 +72,28 @@ input, button, ::placeholder {
     margin-top: 10px;
     margin-bottom: 20px;
     width: 75%;
+    font-size: 1.5em;
+    color: #0b314f;
+}
+
+.forum-buttons,
+.search-key,
+.filter {
+    text-align: right; /* Alinhe os botões à direita */
+    padding: 10px;
+    margin-right: 150px;
+}
+
+.forum-buttons button,
+.search-key button,
+.filter button {
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.header {
+    background-color: #fff;
+    color: #0b314f;
 }

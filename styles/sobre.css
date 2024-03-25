@@ -43,8 +43,8 @@ body {
 
 input, button, ::placeholder {
     border-radius: 20px;
-    background-color: #4682B4;
-    color: #fff;
+    background-color: #fff;
+    color: #0b314f;
 }
 
 section {

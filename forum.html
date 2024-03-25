@@ -13,8 +13,8 @@
         </a>
         <h1>Fórum</h1> 
         <form action="/search" method="get">
-            <input type="text" placeholder="Pesquisar..." name="search">
-            <button type="submit">Buscar</button>
+            <input class="header" type="text" placeholder="Pesquisar..." name="search">
+            <button class="header" type="submit">Buscar</button>
         </form>
     </header>
     <main>
@@ -31,6 +31,20 @@
         </nav>
         
         <section>
+            <div class="forum-buttons">
+                <div class="new-forum">
+                    <button><a href="/novoForum.html">Novo fórum</a></button>
+                </div>
+            </div>
+            
+            <div class="search-key">
+                <button>Buscar</button>
+            </div>
+            
+            <div class="filter">
+                <button>Filtrar</button>
+            </div>
+
             <div class="feed-container">
                 <div class="forum-ex1">
                     <h2 class="forum-title">O avanço da terapia gênica no Brasil</h2>
@@ -50,20 +64,6 @@
                     <p class="content-preview"> O hipertireoidismo é uma alteração da função da glândula tireoide. Nesses casos, há um aumento da produção dos hormônios T3 e T4, ...</p>
                     <a href="forum-page3.html" class="forum-link">Ver mais</a>
                 </div>
-            </div>
-
-            <div class="forum-buttons">
-                <div class="new-forum">
-                    <button><a href="/novoForum.html">Criar novo fórum</a></button>
-                </div>
-            </div>
-            
-            <div class="search-key">
-                <button>Buscar por palavra chave</button>
-            </div>
-            
-            <div class="filter">
-                <button>Filtrar</button>
             </div>
         </section>
     </main>
