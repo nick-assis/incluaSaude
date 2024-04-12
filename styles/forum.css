@@ -1,8 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #4682B4;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+}
+
+.header {
+    background-color: #fff;
+    color: #0b314f;
 }
 
 .logo {
@@ -18,10 +30,10 @@ h1 {
 }
 
 nav {
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 17%x;   
     position: fixed;
     font-size: 20px;
     padding: 20px 20px 22px 22px;    
@@ -29,16 +41,9 @@ nav {
     background-color: #4682B4;
 }
 
-footer {
-    background-color: #4682B4;
-    text-align: center;
-    color: #fff;
-    height: 100px;
-}
-
 body {
-    margin: 0px;
     background-color: #C0D9D9;
+    margin-top: 20px;
 }
 
 a {
@@ -54,14 +59,16 @@ a:hover {
     background-color: #0056b3;
 }
 
-section {
-    margin-left:  200px;
-}
-
 input, button {
     border-radius: 5px;
     background-color: #4682B4;
     color: #fff;
+}
+
+.feedForum {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 .forum-ex1,
@@ -69,22 +76,30 @@ input, button {
 .forum-ex3 {
     border: 2px solid #4682B4;
     padding: 10px 10px;;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 75%;
+    margin-left: 12%;
+    margin-bottom: 10px;
+    width: 70%;
     font-size: 1.5em;
     color: #0b314f;
 }
 
-.forum-buttons,
-.search-key,
-.filter {
-    text-align: right; /* Alinhe os botões à direita */
-    padding: 10px;
-    margin-right: 150px;
+.forum-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    right: 20px;
+    top: 195px;
 }
 
-.forum-buttons button,
+.new-forum,
+.search-key,
+.filter {
+    padding: 10px;
+}
+
+.new-forum button,
 .search-key button,
 .filter button {
     width: 120px;
@@ -93,7 +108,9 @@ input, button {
     font-size: 15px;
 }
 
-.header {
-    background-color: #fff;
-    color: #0b314f;
+footer {
+    background-color: #4682B4;
+    text-align: center;
+    color: #fff;
+    height: 100px;
 }

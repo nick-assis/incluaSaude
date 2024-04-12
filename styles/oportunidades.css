@@ -62,14 +62,6 @@ a {
     outline: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    color: inherit;
-}
-
 .dicas {
     margin: 10px;
     padding: 10px;

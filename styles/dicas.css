@@ -75,11 +75,3 @@ a {
     text-decoration: none;
     outline: none;
 }
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    color: inherit;
-}
