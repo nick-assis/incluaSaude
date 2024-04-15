@@ -1,8 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #4682B4;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+}
+
+.header {
+    background-color: #fff;
+    color: #0b314f;
 }
 
 .logo {
@@ -20,19 +32,12 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 17%;
     position: fixed;
     font-size: 20px;
-    margin-top: 7px;
     padding: 20px 20px 22px 22px;    
     color: #C0D9D9;
     background-color: #4682B4;
-}
-
-footer {
-    background-color: #4682B4;
-    text-align: center;
-    color: #fff;
-    height: 100px;
 }
 
 body {
@@ -41,7 +46,7 @@ body {
 }
 
 input, button {
-    border-radius: 50px;
+    border-radius: 5px;
     background-color: #4682B4;
     color: #fff;
 }
@@ -57,16 +62,24 @@ a {
     outline: none;
 }
 
-a:hover {
+a {
+    color: #C0D9D9;
     text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
 }
 
 a:active {
     color: inherit;
 }
 
-main {
-    margin: 10px;
+.postForum {
+    width: 80%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 18%;
     padding: 10px;
     border: 3px solid #4682B4;
     text-align: center;
@@ -74,7 +87,17 @@ main {
     color: #0b314f;
 }
 
-.header {
-    background-color: #fff;
-    color: #0b314f;
+.postForum input[type="submit"] {
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #4682B4;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+    margin-top: 13%;
 }

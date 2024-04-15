@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="./styles/novo-forum.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Fórum</title>
+    <script src="/incluaSaude/JS/novoForum.js"></script>
 </head>
 <body>
     <header>
         <a href="./index.html">   
-            <img src="/img/logo.png" alt="logo inclua saúde" class="logo"/>
+            <img src="./img/logo.png" alt="logo inclua saúde" class="logo"/>
         </a> 
         <h1>Cirar novo tópico</h1>
         <form action="/search" method="get">
@@ -19,8 +20,6 @@
         </form>
     </header>
     <main>
-        <div class="title-bar">
-        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="dicas.html">Dicas</a>
@@ -28,16 +27,24 @@
             <a href="sobre.html">Sobre nós</a>
             <a href="forum.html">Fórum</a>
         </nav>
-    <h3><form action="#" method="post">
-        <label for="mensagem">Título</label><br>
-        <textarea id="mensagem" name="mensagem" rows="2" cols="30"></textarea><br>
-    </form></h3>
+        
+        <div class="title-bar">
+        </div>
 
-    <form action="#" method="post">
-        <label for="mensagem">Mensagem</label><br>
-        <textarea id="mensagem" name="mensagem" rows="6" cols="75"></textarea><br>
-        <input type="submit" value="Postar">
-    </form>
+        <div class="postForum">
+            <h3>
+                <form action="#" method="post">
+                    <label for="mensagem">Título</label><br>
+                    <textarea id="titulo" name="titulo" rows="2" cols="30"></textarea><br>
+                </form>
+            </h3>
+    
+            <form action="#" method="post">
+                <label for="mensagem">Mensagem</label><br>
+                <textarea id="mensagem" name="mensagem" rows="6" cols="75"></textarea><br>
+                <input type="submit" value="Postar">
+            </form>
+        </div>
     </main>
     <footer>
         <h3>Objetivo de Desenvolvimento Sustentável</h3>
