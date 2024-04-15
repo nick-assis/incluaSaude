@@ -70,4 +70,12 @@ a {
     color: #0b314f;
     display: flex;
     align-items: center;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.dicas.show {
+    opacity: 1;
+    transform: translateY(0);
 }
