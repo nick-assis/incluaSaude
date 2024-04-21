@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     tituloInput.addEventListener('input', function() {
         const tituloValue = this.value;
-        const regex = /^[a-zA-Z0-9À-ÿ\s]*$/;
-        if (!regex.test(tituloValue)) {
+        const excetp = /^[a-zA-Z0-9À-ÿ\s]*$/;
+        if (!excetp.test(tituloValue)) {
             this.value = tituloValue.replace(/[^a-zA-Z0-9À-ÿ\s]/g, '');
             showMessagePopUp('Não são permitidos caracteres especiais no título.');
             this.style.backgroundColor = 'lightcoral';
