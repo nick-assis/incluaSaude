@@ -35,4 +35,16 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('nav a[href="forum.html"]').click();
         }
     });
+
+    var video = document.getElementById("meu-video");
+
+    video.src = "./Video/copy_6EF953F9-D123-4DBB-A9BF-B87387F0A52B.mp4";
+
+    video.type = "video/mp4";
+
+    video.controls = true;
+
+    video.loop = true;
+
+    video.volume = 0.5;
 });

@@ -33,9 +33,9 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 17%x;   
     position: fixed;
     font-size: 20px;
+    margin-top: 10px;
     padding: 20px 20px 22px 22px;    
     color: #C0D9D9;
     background-color: #4682B4;
@@ -122,7 +122,7 @@ footer {
     background-color: #4682B4;
     text-align: center;
     color: #fff;
-    height: 115px;
+    height: 100px;
 }
 
 header form button.searchArea {
