@@ -3,6 +3,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 2px;
+
 }
 
 .logo {
@@ -50,12 +52,6 @@ body {
     background-color: #C0D9D9;
 }
 
-input, button, ::placeholder {
-    border-radius: 20px;
-    background-color: #fff;
-    color: #0b314f;
-}
-
 section {
     margin: 0px 150px;
     display: grid;
@@ -96,4 +92,27 @@ a {
 
 a:hover {
     color: #0056b3;
+}
+
+header form button.searchArea {
+    border-radius: 20px;
+    background-color: #fff;
+    color: #0b314f;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+header form input.searchArea {
+    border-radius: 20px;
+    background-color: #fff;
+    color: #0b314f;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+header form input.searchArea::placeholder {
+    color: #0b314f;
 }

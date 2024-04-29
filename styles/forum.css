@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding-right: 2px;
 }
 
 .header {
@@ -43,7 +43,6 @@ nav {
 
 body {
     background-color: #C0D9D9;
-    margin-top: 20px;
 }
 
 a {
@@ -81,6 +80,17 @@ input, button {
     width: 70%;
     font-size: 1.5em;
     color: #0b314f;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.forum-ex1.show,
+.forum-ex2.show,
+.forum-ex3.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .forum-buttons {
@@ -112,5 +122,30 @@ footer {
     background-color: #4682B4;
     text-align: center;
     color: #fff;
-    height: 100px;
+    height: 115px;
+}
+
+header form button.searchArea {
+    border-radius: 20px;
+    background-color: #fff;
+    color: #0b314f;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+header form input.searchArea {
+    border-radius: 20px;
+    background-color: #fff;
+    color: #0b314f;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+header form input.searchArea::placeholder {
+    border-radius: 20px;
+    background-color: #fff;
+    color: #0b314f;
 }
